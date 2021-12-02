@@ -18,7 +18,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:tommysonsylverstone/composer-test.git"
+            "url": "https://github.com/tommysonsylverstone/composer-test"
         }
     ]
 }
