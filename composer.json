@@ -15,5 +15,11 @@
         "php": "^7.2 || ^8.0",
         "sulu/sulu": "~2.3.0"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tommysonsylverstone/composer-test"
+        }
+    ]
 }
