@@ -1,6 +1,7 @@
 {
     "name": "tommysonsylverstone/composer-test",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Tenreiro Benjamin",
