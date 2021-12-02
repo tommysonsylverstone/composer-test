@@ -11,6 +11,10 @@
             "App\\": "src"
         }
     },
+    "require": {
+        "php": ">=7.2",
+        "sulu/sulu": "~2.3.0"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
