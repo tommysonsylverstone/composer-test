@@ -16,7 +16,13 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../../../assets/admin/mode_modules"
+            "url": "../../../assets/admin/mode_modules",
+            "options": {
+                "symlink": true
+            }
         }
-    ]
+    ],
+    "require": {
+        "tommysonsylverstone/composer-test": "*"
+    }
 }
