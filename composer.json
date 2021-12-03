@@ -15,8 +15,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/tommysonsylverstone/composer-test"
+            "type": "path",
+            "url": "../assets/admin/mode_modules"
         }
     ]
 }
