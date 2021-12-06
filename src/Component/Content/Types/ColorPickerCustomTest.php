@@ -1,6 +1,6 @@
 <?php
 
-namespace Sevengroup\Component\Content\Types;
+namespace Tommysonsylverstone\ComposerTest\Content\Types;
 
 use Sulu\Component\Content\SimpleContentType;
 
