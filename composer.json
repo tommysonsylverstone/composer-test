@@ -15,11 +15,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../../../assets/admin/node_modules",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "https://github.com/tommysonsylverstone/composer-test/"
         }
     ],
     "require": {
