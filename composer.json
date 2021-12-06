@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "assets/admin/node_modules",
+            "url": "../../../assets/admin/node_modules",
             "options": {
                 "symlink": true
             }
