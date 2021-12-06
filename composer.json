@@ -23,6 +23,6 @@
         }
     ],
     "require": {
-        "tommysonsylverstone/composer-test": "*"
+        "tommysonsylverstone/composer-test": "dev-main"
     }
 }
