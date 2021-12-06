@@ -1,0 +1,14 @@
+{
+    "repositories":[
+        {
+            "type": "path",
+            "url": "../../../assets/admin/node_modules",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "tommysonsylverstone/composer-test": "dev-main"
+    }
+}
