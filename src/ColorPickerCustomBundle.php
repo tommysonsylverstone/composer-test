@@ -1,6 +1,6 @@
 <?php
 
-namespace Sevengroup\Sulu\Bundle\ColorPickerCustomBundle;
+namespace Tommysonsylverstone\ComposerTest\ColorPickerCustomBundle;
 
 use Sulu\Bundle\AdminBundle\DependencyInjection\Compiler\AddAdminPass;
 use Sulu\Bundle\AdminBundle\DependencyInjection\Compiler\AddMetadataProviderPass;
