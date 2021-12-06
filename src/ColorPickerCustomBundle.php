@@ -9,11 +9,4 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class ColorPickerCustomBundle extends Bundle
 {
-    public function build(ContainerBuilder $container)
-    {
-        parent::build($container);
-
-        $container->addCompilerPass(new AddAdminPass());
-        $container->addCompilerPass(new AddMetadataProviderPass());
-    }
 }
