@@ -1,0 +1,6 @@
+services:
+  commoser_test.color_picker_custom_test:
+    class: Tommysonsylverstone\ComposerTest\Content\Types\ColorPickerCustomTest
+    tags:
+      - { name: kernel.color_picker_custom_test }
+      
