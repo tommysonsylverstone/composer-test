@@ -1,5 +1,5 @@
 services:
   gebler_security_headers.response_subscriber:
-    class: Tommysonsylverstone\ComposerTest\EventSubscriber\ResponseSubscriber
+    class: Tommysonsylverstone\ComposerTest\Content\Types\ResponseSubscriber
     tags:
       - { name: kernel.event_subscriber }
