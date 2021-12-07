@@ -1,6 +1,5 @@
 services:
-  commoser_test.color_picker_custom_test:
-    class: Tommysonsylverstone\ComposerTest\Content\Types\ColorPickerCustomTest
+  gebler_security_headers.response_subscriber:
+    class: Tommysonsylverstone\ComposerTest\EventSubscriber\ResponseSubscriber
     tags:
-      - { name: kernel.color_picker_custom_test }
-      
+      - { name: kernel.event_subscriber }
