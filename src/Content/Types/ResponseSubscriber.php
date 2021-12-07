@@ -1,5 +1,5 @@
-
 <?php
+
 namespace Tommysonsylverstone\ComposerTest\Content\Types;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
