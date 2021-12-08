@@ -6,8 +6,8 @@ use Sulu\Component\Content\SimpleContentType;
 
 class ColorPickerCustomTest extends SimpleContentType
 {
-    public function __construct(string $name)
+    public function __construct()
     {
-        parent::__construct($name);
+        parent::__construct("color_picker_custom_test");
     }
 }
