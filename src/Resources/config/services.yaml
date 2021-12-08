@@ -1,5 +1,10 @@
 services:
-  gebler_security_headers.response_subscriber:
-    class: Tommysonsylverstone\ComposerTest\Content\Types\ResponseSubscriber
-    tags:
-      - { name: kernel.event_subscriber }
+  _defaults:
+    autowire: true
+    autoconfigure: true
+  color_picker_custom_test:
+    class: Tommysonsylverstone\ComposerTest\Content\Types\ColorPickerCustomTest
+    arguments: 
+      $name: 'color_picker_custom_test'
+    tags: [{ name: "sulu.content.type", alias: "color_picker_custom_test" }]
+  Tommysonsylverstone\ComposerTest\Content\Types\ColorPickerCustomTest: '@tommysonsylverstone.composertest.content.types.colorpickercustomtest'
