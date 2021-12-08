@@ -21,5 +21,8 @@
     ],
     "require": {
         "tommysonsylverstone/composer-test": "dev-main"
+    },
+    "script": {
+        "post-package-install": ["ln -s src/Resources/js/components/ColorPickerCustom/ColorPickerCustomTest.js ../../../assets/admin/extra_types/"]
     }
 }
