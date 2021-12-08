@@ -1,1 +1,14 @@
-
+{
+    "repositories":[
+        {
+            "type": "path",
+            "url": "../../../../../../assets/admin/extra_types/ColorPickerCustomTest.php",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "tommysonsylverstone/composer-test": "dev-main"
+    }
+}
