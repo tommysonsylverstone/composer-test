@@ -17,6 +17,13 @@
         {
             "type": "vcs",
             "url": "https://github.com/tommysonsylverstone/composer-test/"
+        },
+        {
+            "type": "path",
+            "url": "../../../assets/admin/node_modules",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
