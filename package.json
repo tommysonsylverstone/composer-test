@@ -1,7 +1,0 @@
-{
-    "name": "composer-test",
-    "license": "MIT",
-    "dependencies": {
-        "composer-test": "file:src/Resources/js"
-    }
-}
